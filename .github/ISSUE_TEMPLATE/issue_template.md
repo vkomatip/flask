@@ -1,0 +1,1 @@
+<!-- Refer this doc(https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository) for creating issue templates for your repository. -->

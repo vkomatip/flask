@@ -1,0 +1,15 @@
+version: 2.1
+
+orbs: 
+  # Use the Orb based on the need of your project
+  github-super-linter: circleci/github-super-linter@1.0.0
+
+workflows:
+  # Configure the workflow based on the Orb chosen above
+  lint-code-with-options:
+    jobs:
+      - github-super-linter/lint:
+          version: v4
+
+# Refer the list of GitHub repositories: https://github.com/orgs/CXEPI/repositories?language=&q=orb&sort=&type=all to choose the right one for your use case.
+# Note: There are some Orb repositories that might not be qualified for usage, so check the README of the repositories if it's  qualified to use in CircleCI or connect with the contributors of those repositories.
